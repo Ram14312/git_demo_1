@@ -1,3 +1,5 @@
 from User import *
 class Mentor(User):
-    pass
+    def __init__(self,expertise):
+        super().__init__()
+        self.expertise = expertise
